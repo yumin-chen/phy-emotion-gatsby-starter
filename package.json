@@ -1,0 +1,56 @@
+{
+  "name": "phy-emotion-gatsby-starter",
+  "version": "0.0.1",
+  "private": true,
+  "description": "phy-emotion-gatsby-starter",
+  "author": "Yumin Chen <yumin@chen.so>",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "test": "echo \"No tests available!\" && exit 0",
+    "test:unit": "echo \"No tests available!\" && exit 0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "gatsby": "latest",
+    "gatsby-plugin-image": "latest",
+    "gatsby-plugin-manifest": "latest",
+    "gatsby-plugin-offline": "latest",
+    "gatsby-plugin-preact": "latest",
+    "gatsby-plugin-react-helmet": "latest",
+    "gatsby-plugin-sharp": "latest",
+    "gatsby-source-filesystem": "latest",
+    "gatsby-transformer-sharp": "latest",
+    "phy-emotion": "latest",
+    "preact": "latest",
+    "preact-helmet": "latest",
+    "preact-render-to-string": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "prettier": "latest",
+    "react": "^17",
+    "react-dom": "^17",
+    "react-helmet": "latest",
+    "typescript": "latest"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/yumin-chen/phy-emotion-gatsby-starter"
+  }
+}
