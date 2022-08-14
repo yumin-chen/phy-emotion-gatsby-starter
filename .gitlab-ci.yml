@@ -45,12 +45,16 @@ test:gatsby:
 
 pages:
   stage: deploy
+  variables:
+    FF_USE_FASTZIP: "true"
+    ARTIFACT_COMPRESSION_LEVEL: "fastest"
   needs: 
     - yarn:install
     - test:unit
     - test:gatsby
   script:
     - ./node_modules/.bin/gatsby build --prefix-paths
+    - gzip -k -9 $(find public -type f)
   artifacts:
     paths:
       - public
