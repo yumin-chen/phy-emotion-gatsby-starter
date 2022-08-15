@@ -32,16 +32,16 @@
     "phy-emotion": "latest",
     "preact": "latest",
     "preact-helmet": "latest",
-    "preact-render-to-string": "latest",
-    "react": "npm:@preact/compat",
-    "react-dom": "npm:@preact/compat",
-    "react-helmet": "npm:preact-helmet"
+    "preact-render-to-string": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "prettier": "latest",
+    "react": "^17",
+    "react-dom": "^17",
+    "react-helmet": "latest",
     "typescript": "latest"
   },
   "browserslist": [
